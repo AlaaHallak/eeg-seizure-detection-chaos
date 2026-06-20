@@ -110,7 +110,6 @@ eeg-seizure-detection-chaos/
 
 Research project by:
 
-- **Nema Salem** — Effat University
 - **Alaa Hallaq** — Effat University
 - **Hala Alamro** — Effat University
 - **Amal Matar** — Effat University
