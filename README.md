@@ -1,8 +1,8 @@
 # EEG Seizure Detection with Chaotic Dynamics
 
-**Integrating Chaotic Dynamics with Time–Frequency EEG Features for Enhanced Epileptic Seizure Detection.**
+**Integrating chaotic dynamics with time–frequency EEG features for enhanced epileptic seizure detection.**
 
-This repository contains the reference implementation behind the research article *"Integrating Chaotic Dynamics with Time–Frequency EEG Features for Enhanced Epileptic Seizure Detection"* (CHAOS Theory and Applications in Applied Sciences and Engineering, e-ISSN 2687-4539). It detects epileptic seizures from scalp EEG by combining **time-domain**, **frequency-domain**, and **nonlinear chaos-theory** features, and benchmarks three machine-learning classifiers with and without the chaotic features.
+This repository contains the implementation of a research project on automated epileptic seizure detection from scalp EEG. It detects seizures by combining **time-domain**, **frequency-domain**, and **nonlinear chaos-theory** features, and benchmarks three machine-learning classifiers with and without the chaotic features.
 
 > The core finding: adding nonlinear / chaotic descriptors (Largest Lyapunov Exponent, sample & approximate entropy, correlation dimension, DFA, Higuchi fractal dimension) on top of conventional time–frequency features **consistently improves recall, F1-score, and ROC-AUC across all classifiers, while reducing false negatives** — which matters most for safety-critical clinical monitoring.
 
@@ -99,8 +99,6 @@ pip install -r requirements.txt
 eeg-seizure-detection-chaos/
 ├── src/
 │   └── seizure_detection.py     # Full pipeline: preprocessing → features → 3-classifier comparison
-├── docs/
-│   └── Salem_et_al_Chaotic_EEG_Seizure_Detection.pdf   # The research article
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -108,17 +106,11 @@ eeg-seizure-detection-chaos/
 
 ---
 
-## Citation
-
-If you reference this work, please cite the article:
-
-> Salem, N., Hallaq, A., Alamro, H., & Matar, A. (2024). *Integrating Chaotic Dynamics with Time–Frequency EEG Features for Enhanced Epileptic Seizure Detection.* CHAOS Theory and Applications in Applied Sciences and Engineering (e-ISSN 2687-4539).
-
----
-
 ## Authors
 
-- **Nema Salem** (corresponding author) — Effat University
+Research project by:
+
+- **Nema Salem** — Effat University
 - **Alaa Hallaq** — Effat University
 - **Hala Alamro** — Effat University
 - **Amal Matar** — Effat University
@@ -131,4 +123,4 @@ Electrical & Computer Engineering Department, Effat University, Jeddah, Saudi Ar
 
 **© 2024 the authors. All rights reserved.**
 
-This code and the accompanying article are made publicly available for **viewing and academic reference only**. No license is granted to reuse, redistribute, or create derivative works without the express written permission of the authors. The CHB-MIT dataset is governed by its own [PhysioNet license](https://physionet.org/content/chbmit/1.0.0/).
+This code is made publicly available for **viewing and reference only**. No license is granted to reuse, redistribute, or create derivative works without the express written permission of the authors. The CHB-MIT dataset is governed by its own [PhysioNet license](https://physionet.org/content/chbmit/1.0.0/).
