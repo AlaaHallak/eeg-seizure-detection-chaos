@@ -1,0 +1,21 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+
+# EEG signal handling
+mne
+pyedflib
+PyWavelets
+
+# Chaos / nonlinear & entropy measures
+nolds
+antropy
+
+# Machine learning
+scikit-learn
+xgboost
+imbalanced-learn
+joblib

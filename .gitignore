@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# EEG data (large CHB-MIT recordings are NOT redistributed here)
+*.edf
+*.edf+
+EEG_Data/
+data/
+
+# Generated artifacts / intermediate caches
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.csv
+results/
+outputs/
+figures/
+*.png
+*.jpg
+# keep documentation images if you add a docs/img folder:
+!docs/img/*.png
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
